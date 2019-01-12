@@ -1,0 +1,79 @@
+/* Change font for entire document */
+html * {
+    font-family: "Georgia Pro", sans-serif;
+}
+
+body {
+    margin-top: 50px;
+}
+
+/* Logo and Name */
+#Logo {
+    font-size: 25px;
+    background-color: rgba(128,128,128, .25);
+    box-shadow: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* Logo Photo */
+#marknificent {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* Fonts within navigation bar */
+#navBarDiv li a, #navBarDiv li button {
+    font-size: 20px;
+    color: white;
+}
+
+/* Removes pill color for projects and links */
+#links, #projects {
+    background-color: transparent;
+    border: none;
+}
+
+/* Dropdown table color */
+#dprojects, #dlink {
+    background-color: lightgrey;
+}
+
+/* Green Hover Background color table drop tables odd */
+#dprojects a:hover:nth-child(odd), #dlink a:hover:nth-child(odd) {
+    background-color: rgba(255, 0,0,.25);
+}
+
+/* Green Hover Background color table drop tables evens*/
+#dprojects a:hover:nth-child(even), #dlink a:hover:nth-child(even) {
+    background-color: rgba(0, 255,0,.25);
+}
+
+/* Pill Color About */
+#about a {
+    background-color: dimgrey;
+    color: black;
+}
+
+/* Menu Hover Color */
+#contact a:hover, #about a:hover, #links:focus, #projects:focus, #links:hover, #projects:hover {
+    color: lightgray;
+    border: none;
+}
+
+/* Drop Table Text Color */
+#dprojects a.dropdown-item, #dlink a.dropdown-item {
+    color: black;
+}
+
+/* Drop Table Stripes */
+#dprojects a:nth-child(even), #dlink a:nth-child(even) {
+    background-color: darkgrey;
+}
+
+/* Jumbotron for welcome div */
+#wumbojumbotron h1 {
+    text-align: center;
+    color: dimgray;
+}
