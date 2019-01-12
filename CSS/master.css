@@ -30,7 +30,7 @@ body {
 }
 
 /* Removes pill color for projects and links */
-#links, #projects {
+#links, #projects, #about {
     background-color: transparent;
     border: none;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 /* Pill Color About */
-#about a {
+#home a {
     background-color: dimgrey;
     color: black;
 }
@@ -72,8 +72,27 @@ body {
     background-color: darkgrey;
 }
 
+/* Jumbotron Block */
+#wumbojumbotron {
+    background: url("../images/JumboGif.gif") center;
+    background-size: cover;
+}
+
 /* Jumbotron for welcome div */
 #wumbojumbotron h1 {
-    text-align: center;
-    color: dimgray;
+
+    color: lightgray;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Jumbotron paragraph */
+#wumbojumbotron p {
+    color: white;
+}
+
+/* Jumbotron hr divider */
+#wumbojumbotron hr {
+    border-color: lightgray;
+
 }

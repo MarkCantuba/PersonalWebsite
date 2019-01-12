@@ -23,63 +23,84 @@
 </head>
 
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
     <!-- Navigation Bar -->
-    <nav class="navbar fixed-top bg-dark navbar-dark navbar-expand">
-        <div class="container-fluid h-100">
+    <div class="container">
+        <nav class="navbar fixed-top bg-dark navbar-dark navbar-expand">
+            <div class="container-fluid h-100">
 
-            <a id="Logo" class="navbar-brand" href="#">
-                <img id="marknificent" src="images/majesticMark.jpg" alt="Mark"> Mark Cantuba
-            </a>
+                <a id="Logo" class="navbar-brand" href="#">
+                    <img id="marknificent" src="images/majesticMark.jpg" alt="Mark"> Mark Cantuba
+                </a>
 
-            <ul id="navBarDiv" class="nav nav-pills">
-                <li class="nav-item dropdown">
-                    <button id="projects" type="button" class="nav-link btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown" href="#"> <i class="fas fa-book-open"></i> </i>Projects </button>
-                    <div id="dprojects" class="dropdown-menu">
-                        <a href="#"  class="dropdown-item">
-                            <i class="fas fa-snowman"></i> Animations
-                        </a>
+                <ul id="navBarDiv" class="nav nav-pills">
 
-                        <a href="#"  class="dropdown-item">
-                            <i class="fas fa-laptop-code"></i> Programs
-                        </a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-
-                    <button id="links" type="button" class="nav-link btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown" href="#"> <i class="fas fa-link"></i> Links </button>
-                    <div id="dlink" class="dropdown-menu">
-                        <a href="https://www.facebook.com/markcantuba" target="_blank" class="dropdown-item">
-                            <i class="fab fa-facebook-square"></i> Facebook
-                        </a>
-
-                        <a href="https://github.com/MarkCantuba" target="_blank" class="dropdown-item">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/mecantuba/" target="_blank" class="dropdown-item">
-                            <i class="fab fa-linkedin"></i> LinkedIn
-                        </a>
-                    </div>
-                </li>
-
-                <li id="contact" class="nav-item"> <a class="nav-link" href="#">
-                    <i class="fas fa-phone"></i> Contact
-                </a> </li>
-
-                <li id="about" class="nav-item pill-1">
-                    <a class="nav-link active" href="#">
-                        <i class="fas fa-home"></i> Home
+                    <li id="contact" class="nav-item"> <a class="nav-link" href="#">
+                        <i class="fas fa-phone"></i> Contact
                     </a> </li>
-            </ul>
-        </div>
-    </nav>
 
-    <div id="wumbojumbotron" class="jumbotron">
-        <h1 class="display-2"> WELCOME </h1>
+                    <li class="nav-item dropdown">
+
+                        <button id="links" type="button" class="nav-link btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown" href="#"> <i class="fas fa-link"></i> Links </button>
+                        <div id="dlink" class="dropdown-menu">
+                            <a href="https://www.facebook.com/markcantuba" target="_blank" class="dropdown-item">
+                                <i class="fab fa-facebook-square"></i> Facebook
+                            </a>
+
+                            <a href="https://github.com/MarkCantuba" target="_blank" class="dropdown-item">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/mecantuba/" target="_blank" class="dropdown-item">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button id="projects" type="button" class="nav-link btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown" href="#"> <i class="fas fa-book-open"></i> </i>Projects </button>
+                        <div id="dprojects" class="dropdown-menu">
+                            <a href="#"  class="dropdown-item">
+                                <i class="fas fa-snowman"></i> Animations
+                            </a>
+
+                            <a href="#"  class="dropdown-item">
+                                <i class="fas fa-laptop-code"></i> Programs
+                            </a>
+                        </div>
+                    </li>
+
+                    <li id="about" class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-user"></i> About
+                        </a> </li>
+
+                    <li id="home" class="nav-item pill-1">
+                        <a class="nav-link active" href="#wumbojumbotron">
+                            <i class="fas fa-home"></i> Home
+                        </a> </li>
+                </ul>
+            </div>
+        </nav>
     </div>
+
+    <!-- Welcome Header -->
+    <div id="wumbojumbotron" class="jumbotron jumbotron-fluid">
+        <div class="container text-center p-t-3">
+            <h1 class="display-3"> WELCOME </h1>
+            <p class="lead"> to the MarkWeb!</p>
+            <hr class="my-4">
+            <p class="mb-1">
+                Welcome to my personal website. This site is created as my online profile and portfolio. It contains
+                <del> boring </del> interesting stuff about myself and some stuff I've made in school or on my free time.
+            </p>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div></div>
 
 </body>
