@@ -1,19 +1,33 @@
 /* Change font for entire document */
 html * {
-    font-family: "Georgia Pro", sans-serif;
-}
-
-body {
-    margin-top: 50px;
+    font-family: "Lucida Console", serif;
 }
 
 /* Logo and Name */
 #Logo {
-    font-size: 25px;
+    font-size: 20px;
+
     background-color: rgba(128,128,128, .25);
     box-shadow: black;
     padding: 5px;
     border-radius: 20px;
+
+    /* Obtained from https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Obtained from https://www.w3schools.com/howto/howto_css_glowing_text.asp
+    Glow Text transition
+*/
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px greenyellow, 0 0 200px red, 0 0 30px limegreen, 0 0 40px orangered,
+        0 0 50px #e60073, 0 0 60px #e60073, 0 0 20px #e60073;
+    }
 }
 
 /* Logo Photo */
@@ -25,13 +39,14 @@ body {
 
 /* Fonts within navigation bar */
 #navBarDiv li a, #navBarDiv li button {
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
+    color: limegreen;
 }
 
 /* Removes pill color for projects and links */
 #links, #projects, #about {
     background-color: transparent;
+    fill: none;
     border: none;
 }
 
@@ -74,8 +89,9 @@ body {
 
 /* Jumbotron Block */
 #wumbojumbotron {
-    background: url("../images/JumboGif.gif") center;
+    background: url("../images/JumboGif.gif") center; /* From Giffy.com */
     background-size: cover;
+
 }
 
 /* Jumbotron for welcome div */
@@ -94,5 +110,37 @@ body {
 /* Jumbotron hr divider */
 #wumbojumbotron hr {
     border-color: lightgray;
+}
+
+/* About me Section */
+#AboutMe {
+    background-color: gray;
+    background-image: url("../images/clouds.png");
+    background-size: cover;
+    background-position: center;
+    color: darkgreen;
+    margin-top: -20px;
+}
+
+#InternMark {
+    border-radius: 50%;
+    border-style: dot-dash;
+
+    height: 450px;
+    width: 450px;
+    transform: rotate(-90deg);
+    padding: 10px;
+    margin: 10px;
+    rotation: 90deg;
+    background-color: black;
+    background-size: 400px 400px;
+}
+
+#infoBlock, #infoBlock div p {
+    font-size: 16px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
 
 }

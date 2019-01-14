@@ -23,7 +23,7 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
 
     <!-- Navigation Bar -->
     <div class="container">
@@ -36,14 +36,19 @@
 
                 <ul id="navBarDiv" class="nav nav-pills">
 
-                    <li id="contact" class="nav-item"> <a class="nav-link" href="#">
+                    <li id="about" class="nav-item">
+                        <a class="nav-link" href="#AboutMe">
+                            <i class="fas fa-user"></i> About
+                        </a> </li>
+
+                    <li id="contact" class="nav-item"> <a class="nav-link" href="#Contacts">
                         <i class="fas fa-phone"></i> Contact
                     </a> </li>
 
                     <li class="nav-item dropdown">
 
                         <button id="links" type="button" class="nav-link btn btn-primary dropdown-toggle"
-                                data-toggle="dropdown" href="#"> <i class="fas fa-link"></i> Links </button>
+                                data-toggle="dropdown"> <i class="fas fa-link"></i> Links </button>
                         <div id="dlink" class="dropdown-menu">
                             <a href="https://www.facebook.com/markcantuba" target="_blank" class="dropdown-item">
                                 <i class="fab fa-facebook-square"></i> Facebook
@@ -63,20 +68,15 @@
                         <button id="projects" type="button" class="nav-link btn btn-primary dropdown-toggle"
                                 data-toggle="dropdown" href="#"> <i class="fas fa-book-open"></i> </i>Projects </button>
                         <div id="dprojects" class="dropdown-menu">
-                            <a href="#"  class="dropdown-item">
+                            <a href="#Animations"  class="dropdown-item">
                                 <i class="fas fa-snowman"></i> Animations
                             </a>
 
-                            <a href="#"  class="dropdown-item">
+                            <a href="#Programs"  class="dropdown-item">
                                 <i class="fas fa-laptop-code"></i> Programs
                             </a>
                         </div>
                     </li>
-
-                    <li id="about" class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fas fa-user"></i> About
-                        </a> </li>
 
                     <li id="home" class="nav-item pill-1">
                         <a class="nav-link active" href="#wumbojumbotron">
@@ -87,6 +87,11 @@
         </nav>
     </div>
 
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
     <!-- Welcome Header -->
     <div id="wumbojumbotron" class="jumbotron jumbotron-fluid">
         <div class="container text-center p-t-3">
@@ -95,12 +100,96 @@
             <hr class="my-4">
             <p class="mb-1">
                 Welcome to my personal website. This site is created as my online profile and portfolio. It contains
-                <del> boring </del> interesting stuff about myself and some stuff I've made in school or on my free time.
+                <del>boring</del> interesting stuff about myself and some stuff I've made in school or on my free time.
             </p>
         </div>
     </div>
 
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
     <!-- About -->
-    <div></div>
+    <div id="AboutMe" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- 1st Page -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-6 col-lg-5 item text-right">
+                        <img id="InternMark" src="images/IMG_8971.JPG" alt="Me">
+                    </div>
+
+                    <div id="infoBlock" class="col-md-6 col-md-5 item">
+                        <br><br>
+                        <h1 class="font-weight-bold display-4 text-center"> <abbr title="My Name is Jeff"> About Me </abbr> </h1>
+
+                        <div class="row text-center">
+                            <p>
+                                My name is Mark, and I am from the Philippines! I am currently in 3rd years of studies pursuing a degree
+                                in Computer Science. I enjoy trying out new things and creating stick animations, especially when I am extremely
+                                bored. I recently got into playing the guitar due to boredom, and man was it worth it.
+                                <br><br>
+                                On my free time, I like to do a variety of things such as gaming, cooking, programming,
+                                and sometimes sports (not a big fan anymore, but I used to be big into sports). I have
+                                my 1st dan black belt in Taekwondo and I am also a fan of playing Badminton. Don't ask
+                                me if I watch sports though, I dislike watching sports; they're boring. I really enjoy
+                                animations though.
+                                <br><br>
+                                I am a big fan of technology and I really enjoy building things (especially computers).
+                                I also enjoy learning about topics in A.I, and currently attempting to teach myself
+                                neural networks. My current goal is to obtain an internship position to further expand
+                                my knowledge, and be able to do something cool with it in the future!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#AboutMe" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"> Previous </span>
+            </a>
+
+            <a class="carousel-control-next" href="#AboutMe" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"> Next </span>
+            </a>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
+    <!-- Animations -->
+    <div id="Animations" class="container-fluid">
+
+
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
+    <!-- Programs -->
+    <div id="Programs" class="container-fluid">
+
+
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
+    <!-- Contacts -->
+    <div id="Contacts" class="container-fluid">
+
+
+    </div>
 
 </body>
