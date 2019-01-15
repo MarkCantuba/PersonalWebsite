@@ -122,6 +122,7 @@ html * {
     margin-top: -20px;
 }
 
+/* About me photo */
 #InternMark {
     border-radius: 50%;
     border-style: dot-dash;
@@ -136,11 +137,46 @@ html * {
     background-size: 400px 400px;
 }
 
+/* About me Text */
 #infoBlock, #infoBlock div p {
     font-size: 16px;
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 0;
+}
 
+/* Project slides */
+#ProjectSlide {
+    background-color: black;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+#ProgrammyStuff h1 {
+    background-color: Gray;
+}
+
+#AnimStuff h1 {
+    background-color: white;
+}
+
+.card {
+    width: 18rem;
+    height: 33rem;
+    margin-left: 60px;
+    margin-bottom: 50px
+}
+
+#ProgrammyStuff p {
+    font-size: 14px;
+}
+
+#ProgrammyStuff a, #AnimStuff a {
+    font-size: 50px;
+    color: purple;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    size: 10px;
 }
