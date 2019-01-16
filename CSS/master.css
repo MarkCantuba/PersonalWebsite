@@ -148,13 +148,17 @@ html * {
 
 /* Project slides */
 #ProjectSlide {
-    background-color: black;
-    border-style: solid;
+    background-image: url("../images/techBG.png");
+    background-position: center;
     margin-top: 10px;
 }
 
-#ProgrammyStuff h1 {
-    background-color: Gray;
+/* Header for Slides */
+#ProgrammyStuff h1, #Animation h1 {
+    background-image: url("../images/PowerfulRadiantGrizzlybear-size_restricted.gif");
+    background-position: center;
+    opacity: .80;
+    color: white;
 }
 
 #AnimStuff h1 {
@@ -165,7 +169,8 @@ html * {
     width: 18rem;
     height: 33rem;
     margin-left: 60px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    max-width: 18rem;
 }
 
 #ProgrammyStuff p {
@@ -174,9 +179,29 @@ html * {
 
 #ProgrammyStuff a, #Animation a {
     font-size: 50px;
-    color: purple;
+    color: dimgray;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     size: 10px;
+}
+
+/* Contacts */
+#Contacts {
+    margin-top: 10px;
+    background-image: url("../images/gradient1.jpg");
+    background-position: center;
+    opacity: .9;
+}
+
+#Contacts h1 {
+    color: orangered;
+}
+
+#Contacts i {
+    color: deepskyblue;
+}
+
+#Contacts h2 {
+    color: lightgray;
 }
